@@ -13,6 +13,9 @@ target_sources(Infantry2
         
         pyro_mission_planer.cpp
         pyro_init_thread.cpp
+
+        # === Buzzer 使用例程 ===
+        pyro_buzzer_demo.cpp
     )
 
 # ===================== 头文件包含路径（覆盖所有模块根目录） =====================
